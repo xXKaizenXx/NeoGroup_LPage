@@ -185,7 +185,7 @@ body {
     position: relative;
     padding: 3rem 1rem 4rem; /* Reduced top padding */
     background: linear-gradient(175deg, var(--section-bg) 0%, var(--background) 100%);
-    margin-top: -38vh; /* Pulls section up */  /* Changed from fixed rem to viewport units */
+    margin-top: -38vh; /* Pulls the section up */  /* I changed from fixed rem to viewport units */
     z-index: 1;
     /* Adding an overlap effect */
     &::before {

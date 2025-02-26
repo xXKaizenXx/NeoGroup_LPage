@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
         circle.style.strokeDashoffset = '283';
     }
 
-    // Enhanced Intersection Observer for Cards and CTA
+    // Enhanced Intersection Observer for the Cards and CTA Sections
     const elementObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -95,12 +95,12 @@ document.addEventListener('DOMContentLoaded', () => {
         rootMargin: '0px 0px -100px 0px'
     });
 
-    // Observe all animate-on-scroll elements
+    // Observing all the animate-on-scroll elements
     document.querySelectorAll('.animate-on-scroll').forEach(el => {
         elementObserver.observe(el);
     });
 
-    // Enhanced Them System
+    // Enhanced Theme System
     const themeToggle = document.querySelector('.theme-toggle');
     const htmlElement = document.documentElement;
 
